@@ -23,6 +23,7 @@
     --brass: #B8935A;
     --brass-light: #D4B582;
     --brass-dim: #8C6E3F;
+    --brass-dark: #6E5630;
     --ink: #1A1A1A;
     --slate: #4A4A4A;
     --slate-light: #8A8580;
@@ -3305,7 +3306,7 @@
       </div>
 
       <!-- ── 4. SIREET EQUITY (kept from v6.3.12, headline=lifetime) ── -->
-      <div class="hero-metric-card hero-metric-card-equity hmc-sireet" data-product="tea" data-card-id="sireet">
+      <div class="hero-metric-card hero-metric-card-equity hmc-sireet" data-product="sireet equity" data-card-id="sireet">
         <div class="hmc-head">
           <span class="hmc-lbl">Sireet equity</span>
           <span class="hmc-period">5 Ksh/kg · cumulative</span>
@@ -4527,8 +4528,8 @@
 
         <!-- ACTION GRID — operator-first, top placement -->
         <div style="display:grid; grid-template-columns:1fr 1fr; gap:0.5rem; margin-bottom:1.2rem;">
-          <button type="button" onclick="openSheepEventForm('lambed', null)" class="export-btn" style="background:var(--forest); color:var(--ivory); border-color:var(--forest); padding:0.7rem 0.5rem; font-size:0.92rem">🐑 + Log lambing</button>
-          <button type="button" onclick="openSheepEventPicker(null)" class="export-btn" style="background:var(--brass-dark); color:var(--ivory); border-color:var(--brass-dark); padding:0.7rem 0.5rem; font-size:0.92rem">📝 + Log event</button>
+          <button type="button" onclick="openSheepEventForm('lambed', null)" class="export-btn" style="background:var(--forest); color:var(--ivory); border-color:var(--forest); padding:0.7rem 0.5rem; font-size:0.78rem">🐑 + Log lambing</button>
+          <button type="button" onclick="openSheepEventPicker(null)" class="export-btn" style="background:var(--brass-dark); color:var(--ivory); border-color:var(--brass-dark); padding:0.7rem 0.5rem; font-size:0.78rem">📝 + Log event</button>
           <button type="button" onclick="openSheepForm('add', null)" class="export-btn" style="background:var(--forest-dark); color:var(--ivory); border-color:var(--forest-dark); padding:0.55rem 0.5rem;">+ Add sheep</button>
           <button type="button" onclick="setSheepView('list')" class="export-btn" style="background:transparent; color:var(--brass-dark); border:1px solid var(--brass); padding:0.55rem 0.5rem;">View registry</button>
         </div>
@@ -4994,8 +4995,8 @@
              serves the operator's action. They should be laid out 
              differently because their primary users are different. -->
         <div style="display:grid; grid-template-columns:1fr 1fr; gap:0.5rem; margin-bottom:1.2rem;">
-          <button type="button" onclick="setCowView('milk'); openCowMilkForm(null, null)" class="export-btn" style="background:var(--forest); color:var(--ivory); border-color:var(--forest); padding:0.7rem 0.5rem; font-size:0.92rem">🥛 + Log milking</button>
-          <button type="button" onclick="openCowEventPicker(null)" class="export-btn" style="background:var(--brass-dark); color:var(--ivory); border-color:var(--brass-dark); padding:0.7rem 0.5rem; font-size:0.92rem">📝 + Log event</button>
+          <button type="button" onclick="setCowView('milk'); openCowMilkForm(null, null)" class="export-btn" style="background:var(--forest); color:var(--ivory); border-color:var(--forest); padding:0.7rem 0.5rem; font-size:0.78rem">🥛 + Log milking</button>
+          <button type="button" onclick="openCowEventPicker(null)" class="export-btn" style="background:var(--brass-dark); color:var(--ivory); border-color:var(--brass-dark); padding:0.7rem 0.5rem; font-size:0.78rem">📝 + Log event</button>
           <button type="button" onclick="setCowView('form'); openCowForm('add')" class="export-btn" style="background:var(--forest-dark); color:var(--ivory); border-color:var(--forest-dark); padding:0.55rem 0.5rem;">+ Add cow</button>
           <button type="button" onclick="setCowView('list')" class="export-btn" style="background:transparent; color:var(--brass-dark); border:1px solid var(--brass); padding:0.55rem 0.5rem;">View registry</button>
         </div>
